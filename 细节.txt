@@ -1,0 +1,9 @@
+Environment="HTTP_PROXY=http://192.168.1.24:1080" "HTTPS_PROXY=https://192.168.1.24:1080"
+
+HTTP_PROXY="http://192.168.1.24:1080"
+HTTPS_PROXY="https://192.168.1.24:1080"
+export HTTP_PROXY HTTPS_PROXY
+
+
+[Service]
+Environment="HTTP_PROXY=http://192.168.1.24:1080"
